@@ -38,12 +38,14 @@ body {
   flex-direction: column;
   justify-content: space-around;
 }
+
 .huddle__main {
   display: flex;
   flex-direction: row;
   height: 70vh;
   justify-content: center;
 }
+
 .huddle__main__picture {
   width: 50vw;
   height: 100%;
@@ -51,6 +53,7 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
 }
+
 .huddle__main__info {
   width: 40vw;
   height: 70%;
@@ -59,12 +62,14 @@ body {
   font-family: "Poppins", sans-serif;
   gap: 3vh;
 }
+
 .huddle__main__info .build__community {
   padding: 0 9rem 0 0;
   margin: 0 0 0 0.3rem;
   font-size: 2rem;
   line-height: 2.7rem;
 }
+
 .huddle__main__info .register {
   width: 12vw;
   height: 7vh;
@@ -77,10 +82,12 @@ body {
   border: none;
   font-size: 0.9rem;
 }
+
 .huddle__main__info .register:hover {
   background-color: hsl(300, 69%, 71%);
   color: #fff;
 }
+
 .huddle__footer {
   height: 7vh;
   width: 95%;
@@ -88,6 +95,7 @@ body {
   justify-content: flex-end;
   gap: 2vw;
 }
+
 .huddle__footer .fa-brands {
   display: grid;
   place-content: center;
@@ -118,28 +126,32 @@ body {
     align-items: center;
     height: 70vh;
     width: 100vw;
-    border: 3px solid yellow;
   }
+
   .huddle__main__picture {
     width: 80%;
     height: 32vh;
     background-size: contain;
   }
+
   .huddle__main__info {
     width: 80vw;
     height: 38vh;
     display: flex;
     flex-direction: column;
   }
+
   .huddle__main__info p {
     text-align: center;
     font-size: 1.1rem;
   }
+
   .huddle__main__info .register {
     width: 60vw;
     margin: auto auto;
     height: 6vh;
   }
+
   .huddle__main__info .build__community {
     padding: 0 0 0.1rem 0;
     font-size: 1.8rem;
@@ -147,19 +159,22 @@ body {
     text-align: center;
     margin: 0;
   }
+
   .huddle__footer {
-    border: 4px solid yellow;
     justify-content: center;
     align-items: center;
     width: 100%;
   }
+
   .huddle__footer .fa-brands {
     height: 2rem;
     width: 2rem;
   }
+
   .logo {
     width: 35%;
-    border: 3px solid yellow;
     height: 5vh;
   }
-}/*# sourceMappingURL=style.css.map */
+}
+
+/*# sourceMappingURL=style.css.map */
